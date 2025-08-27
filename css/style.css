@@ -1,0 +1,239 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+/* Cabeçalho */
+.header{
+    background-color: #3b3b3b;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.header-nav{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+    align-items: center;
+    width: 80rem;
+    
+}
+
+.header-nav__atl {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.header-nav__atl a{
+    text-transform: uppercase;
+    color: #ffee00;
+    text-decoration: none;
+    padding: 1rem;
+    outline: 2px solid #ffe600;
+}
+
+.header-nav__atl a:hover {
+    background-color: #ffee00;
+    color: black;
+    outline: 2px solid white;
+}
+
+.layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow:  1;
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(to bottom, white, #f5e029);
+    padding: 0;
+}
+
+.layout-textimg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.layout-text{
+    margin-left: 4rem;
+    width: 35rem;
+}
+
+.layout-text__ap {
+    font-size: 4rem;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.layout-text__link {
+    text-decoration: none;
+    color: black;
+    background-color: #e6d709;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 5px;
+}
+
+.layout-text__link:hover {
+    color: white;
+    background-color: #000000;
+}
+
+.layout-img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#cursos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow:  1;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+.cursos-title {
+    text-align: center;
+    margin-top: 4rem;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.cursos-pp {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cusos-de {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 25rem;
+    margin: 1rem;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(66, 66, 66);
+}
+
+.cusos-de__text {
+    text-align: justify;
+    padding: 0 2rem;
+}
+
+.cursos-but {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #f5e029;
+    display: block;
+    text-align: center;
+    width: 15%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    border-radius: 5px;
+}
+
+.cursos-but:hover {
+    color: white;
+    background-color: #000000;
+}
+
+.escola {
+    background-color: #1a1a72;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+    padding: 0;
+    padding-top: 4rem;
+}
+
+.escola-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90rem;
+}
+
+.escola-text {
+    width: 40%;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-align: justify;
+}
+
+.escola-text__title {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+.contatos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow:  1;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.contatos-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos__title {
+    font-size: 2rem;
+    margin: 4rem;
+}
+
+.contatos-mapa {
+    width: 60rem;
+    height: 30rem;
+}
+
+.contatos-end {
+    width: 15rem;
+    display: block;
+    text-align: right;
+    position: relative;
+    left: 22rem;
+}
+
+.rodape {
+    background-color: #3b3b3b;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding:5rem 0 5rem 0;
+}
